@@ -1,0 +1,31 @@
+.high{
+  font-size: 30px;
+}
+
+.same{
+    color: darkblue;
+    text-align: left;
+}
+
+
+.bg-dark-blue {
+    background-color: #0d47a1;
+    color: white;
+}
+
+
+.btn-pink {
+    background-color: #ff4081;
+    color: white;
+}
+
+
+.btn-pink:hover {
+    background-color: #f50057;
+    color: white;
+}
+
+
+.navbar {
+    border-bottom: 1px solid #eaeaea;
+}

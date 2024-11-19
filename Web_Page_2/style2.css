@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.hero .text-section {
+    flex: 1;
+}
+
+.hero .text-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero .text-section p {
+    margin: 10px 0;
+}
+
+.hero .hashtag {
+    font-size: 14px;
+    font-weight: bold;
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-gallery .big-image {
+    width: 300px;
+    height: 300px;
+}
+
+
+.social-links {
+    margin-top: 40px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: darkred;
+}
